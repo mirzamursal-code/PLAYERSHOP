@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0c0e14">
+  <meta name="description" content="Закажи разработку своей Roblox-игры у furafu3l.">
+  <title>PLAYER SHOP | Roblox Game Development</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">PLAYER<span>SHOP</span></a>
+
+    <nav>
+      <a href="#home">Главная</a>
+      <a href="#genres">Жанры</a>
+      <a href="#about">Обо мне</a>
+      <a href="#prices">Цены</a>
+      <a href="#order" class="nav-button">Заказать игру</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ГЛАВНЫЙ ЭКРАН -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">ROBLOX GAME DEVELOPMENT</p>
+
+        <h1>
+          ТВОЯ ИДЕЯ.<br>
+          ТВОЯ <span>ИГРА.</span>
+        </h1>
+
+        <p class="hero-text">
+          как там говорилась,build your dreams
+        </p>
+
+        <a href="#order" class="button">
+          Заказать свою игру ↗
+        </a>
+
+        <p class="small-note">
+          Индивидуальные проекты · Твоя фантазия
+        </p>
+      </div>
+
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="game-icon">🎮</div>
+        <div class="floating-tag">YOUR WORLD</div>
+      </div>
+    </section>
+
+    <!-- ЖАНРЫ -->
+    <section class="section" id="genres">
+      <p class="eyebrow">ВЫБЕРИ НАПРАВЛЕНИЕ</p>
+      <h2>Какую игру <span>создадим?</span></h2>
+
+      <p class="section-description">
+        Выбери жанр или предложи собственную идею.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-art red">🏃</div>
+          <h3>Obby / Паркур</h3>
+          <p>Препятствия, уровни, чекпоинты и испытания.</p>
+          <button class="choose" data-game="Обби / паркур">
+            Выбрать ↗
+          </button>
+        </article>
+
+        <article class="card">
+          <div class="card-art purple">🐾</div>
+          <h3>Симулятор</h3>
+          <p>Питомцы, улучшения, награды и новые миры.</p>
+          <button class="choose" data-game="Симулятор">
+            Выбрать ↗
+          </button>
+        </article>
+
+        <article class="card">
+          <div class="card-art orange">🏭</div>
+          <h3>Тайкун</h3>
+          <p>Строй базу, зарабатывай и открывай улучшения.</p>
+          <button class="choose" data-game="Тайкун">
+            Выбрать ↗
+          </button>
+        </article>
+
+        <article class="card">
+          <div class="card-art blue">👻</div>
+          <h3>Хоррор</h3>
+          <p>Монстры, загадки и захватывающее выживание.</p>
+          <button class="choose" data-game="Хоррор">
+            Выбрать ↗
+          </button>
+        </article>
+      </div>
+
+      <div class="custom-idea">
+        <div>
+          <h3>Есть своя идея?</h3>
+          <p>Можем обсудить любой другой жанр игры.</p>
+        </div>
+        <button class="button" data-game="Другая игра">
+          Рассказать идею ↗
+        </button>
+      </div>
+    </section>
+
+    <!-- ОБО МНЕ -->
+    <section class="about" id="about">
+      <div class="about-avatar">⚠️</div>
+
+      <div class="about-content">
+        <p class="eyebrow">ТВОЙ ДИКТАТОР</p>
+
+        <h2>Салями,я <span>furafu3l!</span></h2>
+
+        <p>
+          я популярный создатель роблокс игр! я могу тебе сделать ЛЮБОЙ 
+          жанр игры только по твоему описанию).
+        </p>
+
+        <p>
+          Твоя идея — не просто не нужный мусор,она 
+          может взлететь но тебе тежело создат
+          ну и я помогу)
+        </p>
+
+        <a
+          class="button tiktok-button"
+          href="https://www.tiktok.com/@drims_offical"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ♪ Мой TikTok — @drims_offical ↗
+        </a>
+      </div>
+    </section>
+
+    <!-- ЦЕНЫ -->
+    <section class="section prices" id="prices">
+      <p class="eyebrow">ВЫБЕРИ СВОЙ ТАРИФ</p>
+      <h2>Сколько стоит <span>игра?</span></h2>
+
+      <p class="section-description">
+        Выбери подходящий бюджет. Итоговая цена
+        зависит от сложности твоего проекта.
+      </p>
+
+      <div class="cards price-cards">
+        <article class="card price-card">
+          <h3>START</h3>
+          <p class="price">200 R$</p>
+          <p>Для простой игры с базовыми механиками.</p>
+
+          <ul>
+            <li>Простой игровой мир</li>
+            <li>Базовые механики</li>
+            <li>Обсуждение идеи</li>
+          </ul>
+
+          <button class="choose" data-budget="500 Robux">
+            Выбрать START
+          </button>
+        </article>
+
+        <article class="card price-card featured">
+          <span class="popular">ПОПУЛЯРНЫЙ</span>
+          <h3>STANDARD</h3>
+          <p class="price">500 R$</p>
+          <p>Для игры средней сложности.</p>
+
+          <ul>
+            <li>Несколько механик</li>
+            <li>Игровой интерфейс</li>
+            <li>Обсуждение деталей</li>
+          </ul>
+
+          <button class="choose" data-budget="2000 Robux">
+            Выбрать STANDARD
+          </button>
+        </article>
+
+        <article class="card price-card">
+          <h3>PREMIUM</h3>
+          <p class="price">700 R$+</p>
+          <p>Для крупных и сложных проектов.</p>
+
+          <ul>
+            <li>Расширенные механики</li>
+            <li>Большой игровой мир</li>
+            <li>Индивидуальный план</li>
+          </ul>
+
+          <button class="choose" data-budget="5000 Robux и более">
+            Выбрать PREMIUM
+          </button>
+        </article>
+      </div>
+
+      <p class="portfolio-note">
+        Цены указаны как примеры в Robux. Способ оплаты
+        и окончательная стоимость согласуются отдельно.
+        Заказ этой формы сам по себе не списывает Robux.
+      </p>
+    </section>
+
+    <!-- ФОРМА ЗАКАЗА -->
+    <section class="section order-section" id="order">
+      <p class="eyebrow">НАЧНИ СВОЙ ПРОЕКТ</p>
+      <h2>Закажи свою <span>игру</span></h2>
+
+      <p class="section-description">
+        Заполни форму как можно подробнее,
+        чтобы я понял, какую игру ты хочешь.
+      </p>
+
+      <form id="orderForm">
+        <label for="projectName">Название проекта</label>
+        <input
+          id="projectName"
+          name="projectName"
+          placeholder="Например, Zombie Survival"
+        >
+
+        <label for="gameType">Жанр игры</label>
+        <select id="gameType" name="gameType" required>
+          <option value="Симулятор">Симулятор</option>
+          <option value="Обби / паркур">Обби / паркур</option>
+          <option value="Тайкун">Тайкун</option>
+          <option value="Хоррор">Хоррор</option>
+          <option value="Ролевая игра">Ролевая игра</option>
+          <option value="Другая игра">Другая игра</option>
+        </select>
+
+        <label for="idea">Опиши свою идею</label>
+        <textarea
+          id="idea"
+          name="idea"
+          rows="6"
+          minlength="10"
+          required
+          placeholder="Что игроки будут делать? Какие нужны карты, персонажи, механики, задания и функции?"
+        ></textarea>
+
+        <label for="budget">Бюджет в Robux</label>
+        <select id="budget" name="budget" required>
+          <option value="500 Robux">200 Robux — START</option>
+          <option value="2000 Robux" selected>
+            500 Robux+ — STANDART 
+          </option>
+          <option value="5000 Robux и более">
+            1000 Robux+ — PREMIUM
+          </option>
+          <option value="Обсудим индивидуально">
+            Обсудим индивидуально
+          </option>
+        </select>
+
+        <label for="deadline">Желаемый срок</label>
+        <select id="deadline" name="deadline">
+          <option value="До 1 недели">До 1 недели</option>
+          <option value="2–4 недели" selected>2–4 недели</option>
+          <option value="Срок не важен">Срок не важен</option>
+        </select>
+
+        <label for="clientEmail">Твой email для ответа</label>
+        <input
+          id="clientEmail"
+          name="clientEmail"
+          type="email"
+          autocomplete="email"
+          required
+          placeholder="you@example.com"
+        >
+
+        <button class="button submit-button" type="submit">
+          Отправить заявку ↗
+        </button>
+
+        <p id="formMessage" role="status" aria-live="polite"></p>
+
+        <p class="form-note">
+          Откроется почтовое приложение с подготовленным заказом.
+          Для отправки письма нужно подтвердить его отправку.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <!-- ПОДВАЛ -->
+  <footer>
+    <a href="#home" class="logo">PLAYER<span>SHOP</span></a>
+    <p>Создаём игровые миры по твоим идеям.</p>
+
+    <div class="footer-links">
+      <a href="#genres">Жанры</a>
+      <a href="#about">Обо мне</a>
+      <a href="#prices">Цены</a>
+      <a
+        href="https://www.tiktok.com/@drims_offical"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        TikTok
+      </a>
+    </div>
+
+    <p class="copyright">
+      Независимая услуга разработки. Не является официальным
+      сайтом Roblox.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
