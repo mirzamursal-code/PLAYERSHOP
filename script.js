@@ -59,7 +59,7 @@ form.addEventListener("submit", event => {
   const subject = `Заказ Roblox-игры: ${projectName || gameType}`;
 
   const body = `
-НОВЫЙ ЗАКАЗ PIXELFORGE
+НОВЫЙ ЗАКАЗ 
 
 Название: ${projectName || "Не указано"}
 Тип игры: ${gameType}
